@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBBA</title>
+    <link rel="shortcut icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/import.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="gnbHeader">
+      <h1>
+        <a href="index.html">
+          <img src="./images/logo.png" alt="gbba logo">
+        </a>
+      </h1>
+      <!-- 햄버거 버튼 -->
+      <button type="button" class="btnHamburger" aria-label="메뉴 열기"></button>
+      <div class="sidePanel">
+        <nav id="gnb">
+          <div class="gnbBg"></div>
+          <ul>
+            <li>
+              <a href="info_notice.html">Info</a>
+              <ol>
+                <li><a href="info_notice.html">Notices</a></li>
+                <li><a href="info_training.html">Training</a></li>
+                <li><a href="info_result.html">Results</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="match_guide.html">Tournaments</a>
+              <ol>
+                <li><a href="match_guide.html">Overview</a></li>
+                <li><a href="match_apply.html">Apply</a></li>
+                <li><a href="match_result.html">Winners</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="comm_photo.html">Community</a>
+              <ol>
+                <li><a href="comm_photo.html">Photos</a></li>
+                <li><a href="comm_video.html">Videos</a></li>
+                <li><a href="comm_story.html">Stories</a></li>
+                <li><a href="comm_qna.html">Q&A</a></li>
+                <li><a href="comm_news.html">News</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="history.html">Basketball</a>
+              <ol>
+                <li><a href="history.html">History</a></li>
+                <li><a href="equip.html">Gear</a></li>
+                <li><a href="rule.html">Rules</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="about_greeting.html">About</a>
+              <ol>
+                <li><a href="about_greeting.html">Greeting</a></li>
+                <li><a href="about_member.html">Board</a></li>
+                <li><a href="about_branch.html">Branches</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="docs_public.html">Resources</a>
+              <ol>
+                <li><a href="docs_public.html">Public</a></li>
+                <li><a href="docs_knf.html">Internal</a></li>
+              </ol>
+            </li>
+          </ul>
+        </nav>
+        <div class="utll login">
+          <div class="userBox">
+            <span class="profileImg"><img src="images/ico_login_on.png" alt="Profile picture"></span>
+            <div class="loginInfo">
+              <span class="userName">John Doe<span></span></span>
+              <div class="loginInfoBtn">
+                <a href="index.html" class="btnLogout">Logout</a>
+                <a href="mypage.html" class="btnLogout">My Page</a>
+              </div>
+            </div>
+          </div>
+          <div class="searchWrap">
+            <button type="button" class="btnSearch" aria-label="Open search"></button>
+            <div class="searchField">
+              <input type="text" placeholder="Enter keyword">
+              <a href="search.html" class="btnSearchSubmit">Search</a>
+              <input type="button" class="btnSearchClose" aria-label="Close search" value="Close">
+            </div>
+          </div>
+        </div>
+        <div class="btnPanelClose">
+          <button type="button" class="btnPanelClose" aria-label="Close menu"></button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="subContainer">
+    <div class="subVisualWrap">
+      <aside class="lnb">
+        <h2>Community</h2>
+        <ul>
+          <li><a href="comm_photo.html">Photos</a></li>
+          <li class="active"><a href="comm_video.html">Videos</a></li>
+          <li><a href="comm_story.html">Stories</a></li>
+          <li><a href="comm_qna.html">Q&A</a></li>
+          <li><a href="comm_news.html">News</a></li>
+        </ul>
+      </aside>
+    </div>
+
+    <section class="subContent">
+      <div class="pageTitle">
+        <h3>Videos</h3>
+      </div>
+
+      <div class="boardUtil">
+        <div class="searchBox">
+          <select>
+            <option>All</option>
+            <option>Title</option>
+            <option>Content</option>
+            <option>Author</option>
+          </select>
+          <input type="text" placeholder="Enter keyword">
+          <button type="button">Search</button>
+        </div>
+        <div class="utilGroup">
+          <div class="totalCount">Total <strong>39</strong> posts</div>
+          <div class="sortSelect">
+            <select>
+              <option>Newest</option>
+              <option>Most Viewed</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="videoWrap">
+        <ul class="galleryList">
+          <li>
+            <a href="comm_photo_view.html">
+              <div class="thumb"><img src="images/gallery1.png" alt="GBBA Championship"></div>
+              <div class="info">
+                <strong class="title">2025 GBBA National Finals Highlights</strong>
+                <span class="date">2025-08-12</span>
+                <span class="meta">Likes 14 | Views 1,028</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="comm_photo_view.html">
+              <div class="thumb"><img src="images/gallery2.png" alt="Netball Drill"></div>
+              <div class="info">
+                <strong class="title">Top 10 Netball Drills for Juniors</strong>
+                <span class="date">2025-08-09</span>
+                <span class="meta">Likes 9 | Views 884</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="comm_photo_view.html">
+              <div class="thumb"><img src="images/gallery3.png" alt="Event Recap"></div>
+              <div class="info">
+                <strong class="title">GBBA Summer Camp 2025 Recap</strong>
+                <span class="date">2025-07-25</span>
+                <span class="meta">Likes 6 | Views 612</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="comm_photo_view.html">
+              <div class="thumb"><img src="images/gallery1.png" alt="Game Tactics"></div>
+              <div class="info">
+                <strong class="title">Beginner's Guide to Netball Rules</strong>
+                <span class="date">2025-07-14</span>
+                <span class="meta">Likes 11 | Views 749</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="comm_photo_view.html">
+              <div class="thumb"><img src="images/gallery1.png" alt="Court Training"></div>
+              <div class="info">
+                <strong class="title">How to Set Up a Netball Court</strong>
+                <span class="date">2025-07-08</span>
+                <span class="meta">Likes 4 | Views 524</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="comm_photo_view.html">
+              <div class="thumb"><img src="images/gallery1.png" alt="Team Play"></div>
+              <div class="info">
+                <strong class="title">Best Teamwork Moments from GBBA 2024</strong>
+                <span class="date">2025-07-01</span>
+                <span class="meta">Likes 7 | Views 689</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="comm_photo_view.html">
+              <div class="thumb"><img src="images/gallery1.png" alt="Award Ceremony"></div>
+              <div class="info">
+                <strong class="title">GBBA Referee Seminar - Full Session</strong>
+                <span class="date">2025-06-20</span>
+                <span class="meta">Likes 5 | Views 439</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="comm_photo_view.html">
+              <div class="thumb"><img src="images/gallery1.png" alt="Interview"></div>
+              <div class="info">
+                <strong class="title">Interview with GBBA President</strong>
+                <span class="date">2025-06-08</span>
+                <span class="meta">Likes 8 | Views 591</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="comm_photo_view.html">
+              <div class="thumb"><img src="images/gallery1.png" alt="Training Tips"></div>
+              <div class="info">
+                <strong class="title">Warm-Up Tips Before Netball Matches</strong>
+                <span class="date">2025-05-30</span>
+                <span class="meta">Likes 3 | Views 307</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="pagination">
+        <a href="#" class="first">«</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#" class="last">»</a>
+      </div>
+    </section>
+
+  </div>
+  <footer>
+    <div>
+      <div>
+        <h2>
+          <img src="./images/logo.png" alt="GBBA Logo">
+        </h2>
+        <dl>
+          <dt>Contact</dt>
+          <dd>TEL</dd>
+          <dd>+1-555-123-4567</dd>
+          <dd>+1-555-987-6543</dd>
+        </dl>
+        <dl>
+          <dt>Address</dt>
+          <dd>3F, 100 Unity Plaza, Global City, NY 10001, USA</dd>
+        </dl>
+        <dl>
+          <dt>Links</dt>
+          <dd><a href="footer_sitemap.html">Sitemap</a></dd>
+          <dd><a href="footer_guide.html">User Guide</a></dd>
+          <dd><a href="footer_privacy.html">Privacy Policy</a></dd>
+        </dl>
+      </div>
+    </div>
+
+    <div>
+      <p>© Global Brotherhood Basketball Association</p>
+      <p>info@gbba.org</p>
+    </div>
+  </footer>
+</body>
+</html>

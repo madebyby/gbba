@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBBA</title>
+    <link rel="shortcut icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/import.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="gnbHeader">
+      <h1>
+        <a href="index.html">
+          <img src="./images/logo.png" alt="gbba logo">
+        </a>
+      </h1>
+      <!-- 햄버거 버튼 -->
+      <button type="button" class="btnHamburger" aria-label="메뉴 열기"></button>
+      <div class="sidePanel">
+        <nav id="gnb">
+          <div class="gnbBg"></div>
+          <ul>
+            <li>
+              <a href="info_notice.html">Info</a>
+              <ol>
+                <li><a href="info_notice.html">Notices</a></li>
+                <li><a href="info_training.html">Training</a></li>
+                <li><a href="info_result.html">Results</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="match_guide.html">Tournaments</a>
+              <ol>
+                <li><a href="match_guide.html">Overview</a></li>
+                <li><a href="match_apply.html">Apply</a></li>
+                <li><a href="match_result.html">Winners</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="comm_photo.html">Community</a>
+              <ol>
+                <li><a href="comm_photo.html">Photos</a></li>
+                <li><a href="comm_video.html">Videos</a></li>
+                <li><a href="comm_story.html">Stories</a></li>
+                <li><a href="comm_qna.html">Q&A</a></li>
+                <li><a href="comm_news.html">News</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="history.html">Basketball</a>
+              <ol>
+                <li><a href="history.html">History</a></li>
+                <li><a href="equip.html">Gear</a></li>
+                <li><a href="rule.html">Rules</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="about_greeting.html">About</a>
+              <ol>
+                <li><a href="about_greeting.html">Greeting</a></li>
+                <li><a href="about_member.html">Board</a></li>
+                <li><a href="about_branch.html">Branches</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="docs_public.html">Resources</a>
+              <ol>
+                <li><a href="docs_public.html">Public</a></li>
+                <li><a href="docs_knf.html">Internal</a></li>
+              </ol>
+            </li>
+          </ul>
+        </nav>
+        <div class="utll login">
+          <div class="userBox">
+            <span class="profileImg"><img src="images/ico_login_on.png" alt="Profile picture"></span>
+            <div class="loginInfo">
+              <span class="userName">John Doe<span></span></span>
+              <div class="loginInfoBtn">
+                <a href="index.html" class="btnLogout">Logout</a>
+                <a href="mypage.html" class="btnLogout">My Page</a>
+              </div>
+            </div>
+          </div>
+          <div class="searchWrap">
+            <button type="button" class="btnSearch" aria-label="Open search"></button>
+            <div class="searchField">
+              <input type="text" placeholder="Enter keyword">
+              <a href="search.html" class="btnSearchSubmit">Search</a>
+              <input type="button" class="btnSearchClose" aria-label="Close search" value="Close">
+            </div>
+          </div>
+        </div>
+        <div class="btnPanelClose">
+          <button type="button" class="btnPanelClose" aria-label="Close menu"></button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="subContainer">
+    <div class="subVisualWrap">
+      <aside class="lnb">
+        <h2>Community</h2>
+        <ul>
+          <li><a href="comm_photo.html">Photos</a></li>
+          <li><a href="comm_video.html">Videos</a></li>
+          <li class="active"><a href="comm_story.html">Stories</a></li>
+          <li><a href="comm_qna.html">Q&A</a></li>
+          <li><a href="comm_news.html">News</a></li>
+        </ul>
+      </aside>
+    </div>
+
+    <section class="subContent">
+      <div class="pageTitle">
+        <h3>Stories</h3>
+      </div>
+
+      <div class="boardUtil">
+        <div class="searchBox">
+          <select>
+            <option>All</option>
+            <option>Title</option>
+            <option>Content</option>
+            <option>Author</option>
+          </select>
+          <input type="text" placeholder="Search keyword">
+          <button type="button">Search</button>
+        </div>
+        <div class="utilGroup">
+          <div class="totalCount">Total <strong>39</strong> posts</div>
+          <div class="sortSelect">
+            <select>
+              <option>Newest</option>
+              <option>Most Viewed</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <table class="boardList">
+        <thead>
+          <tr>
+            <th class="col-num">No</th>
+            <th class="col-title">Title</th>
+            <th class="col-writer">Author</th>
+            <th class="col-date">Date</th>
+            <th class="col-like">Likes</th>
+            <th class="col-view">Views</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="col-num">39</td>
+            <td class="col-title"><a href="info_notice_view.html">2025 Summer League Final Match Highlights</a></td>
+            <td class="col-writer"><span>Author:</span>baller_jay</td>
+            <td class="col-date"><span>Date:</span>2025.09.17</td>
+            <td class="col-like"><span>Likes:</span>21</td>
+            <td class="col-view"><span>Views:</span>340</td>
+          </tr>
+          <tr>
+            <td class="col-num">38</td>
+            <td class="col-title"><a href="info_notice_view.html">Coach Tips: How to Run a Fast Break</a></td>
+            <td class="col-writer"><span>Author:</span>coachAlex</td>
+            <td class="col-date"><span>Date:</span>2025.09.17</td>
+            <td class="col-like"><span>Likes:</span>12</td>
+            <td class="col-view"><span>Views:</span>220</td>
+          </tr>
+          <tr>
+            <td class="col-num">37</td>
+            <td class="col-title"><a href="info_notice_view.html">My First Time Joining GBBA Camp</a></td>
+            <td class="col-writer"><span>Author:</span>gbba_rookie</td>
+            <td class="col-date"><span>Date:</span>2025.09.16</td>
+            <td class="col-like"><span>Likes:</span>8</td>
+            <td class="col-view"><span>Views:</span>150</td>
+          </tr>
+          <tr>
+            <td class="col-num">36</td>
+            <td class="col-title"><a href="info_notice_view.html">Favorite Basketball Shoes for Guards</a></td>
+            <td class="col-writer"><span>Author:</span>hoops_gear</td>
+            <td class="col-date"><span>Date:</span>2025.09.16</td>
+            <td class="col-like"><span>Likes:</span>6</td>
+            <td class="col-view"><span>Views:</span>98</td>
+          </tr>
+          <tr>
+            <td class="col-num">35</td>
+            <td class="col-title"><a href="info_notice_view.html">[Photo] 2025 U15 Championship Moments 📸</a></td>
+            <td class="col-writer"><span>Author:</span>gbba_media</td>
+            <td class="col-date"><span>Date:</span>2025.09.15</td>
+            <td class="col-like"><span>Likes:</span>17</td>
+            <td class="col-view"><span>Views:</span>265</td>
+          </tr>
+          <tr>
+            <td class="col-num">34</td>
+            <td class="col-title"><a href="info_notice_view.html">Let’s Talk: Position-Specific Drills</a></td>
+            <td class="col-writer"><span>Author:</span>courtvision</td>
+            <td class="col-date"><span>Date:</span>2025.09.14</td>
+            <td class="col-like"><span>Likes:</span>10</td>
+            <td class="col-view"><span>Views:</span>110</td>
+          </tr>
+          <tr>
+            <td class="col-num">33</td>
+            <td class="col-title"><a href="info_notice_view.html">Training Routines for Small Forwards</a></td>
+            <td class="col-writer"><span>Author:</span>slamdaily</td>
+            <td class="col-date"><span>Date:</span>2025.09.14</td>
+            <td class="col-like"><span>Likes:</span>9</td>
+            <td class="col-view"><span>Views:</span>104</td>
+          </tr>
+          <tr>
+            <td class="col-num">32</td>
+            <td class="col-title"><a href="info_notice_view.html">How to Build Court Awareness</a></td>
+            <td class="col-writer"><span>Author:</span>vision_james</td>
+            <td class="col-date"><span>Date:</span>2025.09.13</td>
+            <td class="col-like"><span>Likes:</span>5</td>
+            <td class="col-view"><span>Views:</span>77</td>
+          </tr>
+          <tr>
+            <td class="col-num">31</td>
+            <td class="col-title"><a href="info_notice_view.html">Fan Story: Meeting My Idol at GBBA</a></td>
+            <td class="col-writer"><span>Author:</span>ballfan2025</td>
+            <td class="col-date"><span>Date:</span>2025.09.12</td>
+            <td class="col-like"><span>Likes:</span>11</td>
+            <td class="col-view"><span>Views:</span>134</td>
+          </tr>
+          <tr>
+            <td class="col-num">30</td>
+            <td class="col-title"><a href="info_notice_view.html">Best Warm-Up Songs Before a Game?</a></td>
+            <td class="col-writer"><span>Author:</span>djcourt</td>
+            <td class="col-date"><span>Date:</span>2025.09.12</td>
+            <td class="col-like"><span>Likes:</span>3</td>
+            <td class="col-view"><span>Views:</span>41</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="pagination">
+        <a href="#" class="first">«</a>
+        <a href="info_notice_view.html">1</a>
+        <a href="info_notice_view.html">2</a>
+        <a href="info_notice_view.html">3</a>
+        <a href="info_notice_view.html">4</a>
+        <a href="#" class="last">»</a>
+      </div>
+    </section>
+
+  </div>
+  <footer>
+    <div>
+      <div>
+        <h2>
+          <img src="./images/logo.png" alt="GBBA Logo">
+        </h2>
+        <dl>
+          <dt>Contact</dt>
+          <dd>TEL</dd>
+          <dd>+1-555-123-4567</dd>
+          <dd>+1-555-987-6543</dd>
+        </dl>
+        <dl>
+          <dt>Address</dt>
+          <dd>3F, 100 Unity Plaza, Global City, NY 10001, USA</dd>
+        </dl>
+        <dl>
+          <dt>Links</dt>
+          <dd><a href="footer_sitemap.html">Sitemap</a></dd>
+          <dd><a href="footer_guide.html">User Guide</a></dd>
+          <dd><a href="info_notice_view.html">Privacy Policy</a></dd>
+        </dl>
+      </div>
+    </div>
+
+    <div>
+      <p>© Global Brotherhood Basketball Association</p>
+      <p>info@gbba.org</p>
+    </div>
+  </footer>
+</body>
+</html>

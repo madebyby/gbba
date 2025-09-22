@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBBA</title>
+    <link rel="shortcut icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/import.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="gnbHeader">
+      <h1>
+        <a href="index.html">
+          <img src="./images/logo.png" alt="gbba logo">
+        </a>
+      </h1>
+      <!-- 햄버거 버튼 -->
+      <button type="button" class="btnHamburger" aria-label="메뉴 열기"></button>
+      <div class="sidePanel">
+        <nav id="gnb">
+          <div class="gnbBg"></div>
+          <ul>
+            <li>
+              <a href="info_notice.html">Info</a>
+              <ol>
+                <li><a href="info_notice.html">Notices</a></li>
+                <li><a href="info_training.html">Training</a></li>
+                <li><a href="info_result.html">Results</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="match_guide.html">Tournaments</a>
+              <ol>
+                <li><a href="match_guide.html">Overview</a></li>
+                <li><a href="match_apply.html">Apply</a></li>
+                <li><a href="match_result.html">Winners</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="comm_photo.html">Community</a>
+              <ol>
+                <li><a href="comm_photo.html">Photos</a></li>
+                <li><a href="comm_video.html">Videos</a></li>
+                <li><a href="comm_story.html">Stories</a></li>
+                <li><a href="comm_qna.html">Q&A</a></li>
+                <li><a href="comm_news.html">News</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="history.html">Basketball</a>
+              <ol>
+                <li><a href="history.html">History</a></li>
+                <li><a href="equip.html">Gear</a></li>
+                <li><a href="rule.html">Rules</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="about_greeting.html">About</a>
+              <ol>
+                <li><a href="about_greeting.html">Greeting</a></li>
+                <li><a href="about_member.html">Board</a></li>
+                <li><a href="about_branch.html">Branches</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="docs_public.html">Resources</a>
+              <ol>
+                <li><a href="docs_public.html">Public</a></li>
+                <li><a href="docs_knf.html">Internal</a></li>
+              </ol>
+            </li>
+          </ul>
+        </nav>
+        <div class="utll login">
+          <div class="userBox">
+            <span class="profileImg"><img src="images/ico_login_on.png" alt="Profile picture"></span>
+            <div class="loginInfo">
+              <span class="userName">John Doe<span></span></span>
+              <div class="loginInfoBtn">
+                <a href="index.html" class="btnLogout">Logout</a>
+                <a href="mypage.html" class="btnLogout">My Page</a>
+              </div>
+            </div>
+          </div>
+          <div class="searchWrap">
+            <button type="button" class="btnSearch" aria-label="Open search"></button>
+            <div class="searchField">
+              <input type="text" placeholder="Enter keyword">
+              <a href="search.html" class="btnSearchSubmit">Search</a>
+              <input type="button" class="btnSearchClose" aria-label="Close search" value="Close">
+            </div>
+          </div>
+        </div>
+        <div class="btnPanelClose">
+          <button type="button" class="btnPanelClose" aria-label="Close menu"></button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="subContainer">
+    <div class="subVisualWrap">
+      <aside class="lnb">
+        <h2>Basketball</h2>
+        <ul>
+          <li><a href="history.html">History</a></li>
+          <li><a href="equip.html">Gear</a></li>
+          <li class="active"><a href="rule.html">Rules</a></li>
+        </ul>
+      </aside>
+    </div>
+
+    <section class="subContent">
+      <div class="pageTitle">
+        <h3>Rules</h3>
+      </div>
+      <div class="innerBox">
+        <h4>1. Team Composition</h4>
+        <ul class="innerTextBox">
+          <li>a. 7 players per team</li>
+          <li>A team must have at least 5 players to start the game, and one of them must be the Center (C).</li>
+          <li>b. Role and court area by position</li>
+        </ul>
+      </div>
+
+      <div class="innerBox">
+        <h4>2. Game Progress</h4>
+        <ul class="innerTextBox">
+          <li>a. Game duration</li>
+          <li>b. Timeout: Not allowed during quarters, only during breaks</li>
+          <li>
+            c. Substitution: Decided by the organizer
+            <ol>
+              <li>(1) In domestic games, substitutions are allowed during center pass, halftime, and timeout</li>
+              <li>(2) Number of substitutions is unlimited unless otherwise stated by the tournament rules</li>
+            </ol>
+          </li>
+        </ul>
+      </div>
+
+      <div class="innerBox">
+        <h4>3. Game Method and Rules</h4>
+        <ul class="innerTextBox">
+          <li>
+            a. Game Method
+            <ol>
+              <li>(1) Each team has 7 players</li>
+              <li>(2) Players must remain within their designated areas</li>
+              <li>
+                (3) The game starts with a center pass after the whistle. Initial positions can vary as long as they don’t enter the center third before the whistle.
+              </li>
+              <li>(4) Center passes must be received within the center third</li>
+              <li>(5) Teams alternate center passes after each goal</li>
+              <li>(6) Dribbling is not allowed</li>
+              <li>(7) Walking or running with the ball is not allowed (pivoting is permitted)</li>
+              <li>(8) Defenders must keep a distance of at least 90 cm from the player with the ball</li>
+              <li>(9) No physical contact is allowed with the ball holder</li>
+              <li>(10) A pass or shot must be made within 3 seconds</li>
+              <li>(11) Shots must be taken within the goal circle (GA, GS)</li>
+              <li>(12) Shooters may take one step while shooting; if the defender is already in position, close defense within 90 cm is allowed</li>
+            </ol>
+          </li>
+          <li>
+            b. Fouls and Penalties
+            <ol>
+              <li>
+                <span>(1) Free pass: Given for most minor infractions. The defender must stay 90 cm away.</span>
+                <ol>
+                  <li>Footwork – taking too many steps or incorrect foot placement</li>
+                  <li>Three-second rule – holding the ball longer than 3 seconds</li>
+                  <li>Offside – entering areas not allowed for the player's position</li>
+                  <li>Over third – passing the ball over two thirds without touching the center third</li>
+                </ol>
+              </li>
+              <li>
+                <span>(2) Penalty pass: The defender must not interfere until the ball leaves the attacker's hand.</span>
+                <ol>
+                  <li>Obstruction – extending arms or defending aggressively within 90 cm</li>
+                  <li>Contact – making physical contact that interferes with play</li>
+                </ol>
+              </li>
+              <li><span>(3) Warning and suspension: Rough or dangerous play may result in a warning or temporary suspension</span></li>
+            </ol>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+  <footer>
+    <div>
+      <div>
+        <h2>
+          <img src="./images/logo.png" alt="GBBA Logo">
+        </h2>
+        <dl>
+          <dt>Contact</dt>
+          <dd>TEL</dd>
+          <dd>+1-555-123-4567</dd>
+          <dd>+1-555-987-6543</dd>
+        </dl>
+        <dl>
+          <dt>Address</dt>
+          <dd>3F, 100 Unity Plaza, Global City, NY 10001, USA</dd>
+        </dl>
+        <dl>
+          <dt>Links</dt>
+          <dd><a href="footer_sitemap.html">Sitemap</a></dd>
+          <dd><a href="footer_guide.html">User Guide</a></dd>
+          <dd><a href="footer_privacy.html">Privacy Policy</a></dd>
+        </dl>
+      </div>
+    </div>
+
+    <div>
+      <p>© Global Brotherhood Basketball Association</p>
+      <p>info@gbba.org</p>
+    </div>
+  </footer>
+</body>
+</html>

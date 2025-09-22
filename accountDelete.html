@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBBA</title>
+    <link rel="shortcut icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/import.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="gnbHeader">
+      <h1>
+        <a href="index.html">
+          <img src="./images/logo.png" alt="gbba logo">
+        </a>
+      </h1>
+      <!-- 햄버거 버튼 -->
+      <button type="button" class="btnHamburger" aria-label="메뉴 열기"></button>
+      <div class="sidePanel">
+        <nav id="gnb">
+          <div class="gnbBg"></div>
+          <ul>
+            <li>
+              <a href="info_notice.html">Info</a>
+              <ol>
+                <li><a href="info_notice.html">Notices</a></li>
+                <li><a href="info_training.html">Training</a></li>
+                <li><a href="info_result.html">Results</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="match_guide.html">Tournaments</a>
+              <ol>
+                <li><a href="match_guide.html">Overview</a></li>
+                <li><a href="match_apply.html">Apply</a></li>
+                <li><a href="match_result.html">Winners</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="comm_photo.html">Community</a>
+              <ol>
+                <li><a href="comm_photo.html">Photos</a></li>
+                <li><a href="comm_video.html">Videos</a></li>
+                <li><a href="comm_story.html">Stories</a></li>
+                <li><a href="comm_qna.html">Q&A</a></li>
+                <li><a href="comm_news.html">News</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="history.html">Basketball</a>
+              <ol>
+                <li><a href="history.html">History</a></li>
+                <li><a href="equip.html">Gear</a></li>
+                <li><a href="rule.html">Rules</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="about_greeting.html">About</a>
+              <ol>
+                <li><a href="about_greeting.html">Greeting</a></li>
+                <li><a href="about_member.html">Board</a></li>
+                <li><a href="about_branch.html">Branches</a></li>
+              </ol>
+            </li>
+            <li>
+              <a href="docs_public.html">Resources</a>
+              <ol>
+                <li><a href="docs_public.html">Public</a></li>
+                <li><a href="docs_knf.html">Internal</a></li>
+              </ol>
+            </li>
+          </ul>
+        </nav>
+        <div class="utll login">
+          <div class="userBox">
+            <span class="profileImg"><img src="images/ico_login_on.png" alt="Profile picture"></span>
+            <div class="loginInfo">
+              <span class="userName">John Doe<span></span></span>
+              <div class="loginInfoBtn">
+                <a href="index.html" class="btnLogout">Logout</a>
+                <a href="mypage.html" class="btnLogout">My Page</a>
+              </div>
+            </div>
+          </div>
+          <div class="searchWrap">
+            <button type="button" class="btnSearch" aria-label="Open search"></button>
+            <div class="searchField">
+              <input type="text" placeholder="Enter keyword">
+              <a href="search.html" class="btnSearchSubmit">Search</a>
+              <input type="button" class="btnSearchClose" aria-label="Close search" value="Close">
+            </div>
+          </div>
+        </div>
+        <div class="btnPanelClose">
+          <button type="button" class="btnPanelClose" aria-label="Close menu"></button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="subContainer">
+    <div class="subVisualWrap">
+    </div>
+
+    <section class="footerPage">
+      <div class="pageTitle">
+        <h3>프로필수정</h3>
+      </div>
+      <div class="profileEdit">
+        <div class="profileSide">
+          <div class="profileImgWrap">
+            <img src="images/profile photo.png" alt="프로필 이미지">
+            <p class="userName">넷볼러</p>
+            <a href="mypage.html" class="viewProfile">프로필 보기</a>
+          </div>
+          <ul class="menuList">
+            <li><a href="profileEdit.html">계정</a></li>
+            <li><a href="passwordChange.html">비밀번호 변경</a></li>
+            <li><a href="securitySettings.html">보안</a></li>
+            <li class="active"><a href="accountDelete.html">계정 삭제</a></li>
+          </ul>
+        </div>
+
+        <div class="accountDelete">
+          <div class="noticeBox">
+            <p>계정을 삭제하기 원하는 것이 확실한가요?<br>
+            사이트에서 모든 계정 데이터가 지워집니다.<br>
+            계정을 지우려면 아래에 비밀번호를 입력하세요.</p>
+          </div>
+
+          <div class="formGroup">
+            <label for="password">비밀번호</label>
+            <input type="password" id="password" name="password" placeholder="비밀번호를 입력하세요">
+          </div>
+
+          <button class="btnSubmit">계정 삭제</button>
+        </div>
+
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div>
+      <div>
+        <h2>
+          <img src="./images/logo.png" alt="GBBA Logo">
+        </h2>
+        <dl>
+          <dt>Contact</dt>
+          <dd>TEL</dd>
+          <dd>+1-555-123-4567</dd>
+          <dd>+1-555-987-6543</dd>
+        </dl>
+        <dl>
+          <dt>Address</dt>
+          <dd>3F, 100 Unity Plaza, Global City, NY 10001, USA</dd>
+        </dl>
+        <dl>
+          <dt>Links</dt>
+          <dd><a href="footer_sitemap.html">Sitemap</a></dd>
+          <dd><a href="footer_guide.html">User Guide</a></dd>
+          <dd><a href="footer_privacy.html">Privacy Policy</a></dd>
+        </dl>
+      </div>
+    </div>
+
+    <div>
+      <p>© Global Brotherhood Basketball Association</p>
+      <p>info@gbba.org</p>
+    </div>
+  </footer>
+</body>
+</html>
