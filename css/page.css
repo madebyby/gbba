@@ -46,10 +46,10 @@ section.board > div > ul > li > time {background-color: #F2F3F5; border-radius: 
 /* 전체 페이지 영역 */
 .subContainer {max-width: 1920px; margin: 80px auto 0;  box-sizing: border-box;}
 /* 비주얼 영역 - 배경 이미지 + 메뉴 겹침 */
-.subVisualWrap {position: relative; height: 340px; background: url('/images/sub_visual.jpg') no-repeat center/cover; margin-bottom: 70px;}
+.subVisualWrap {position: relative; height: 340px; background: url('../images/sub_visual.jpg') no-repeat center/cover; margin-bottom: 70px;}
 /* 왼쪽 메뉴 - 비주얼 위에 겹침 */
 .subVisualWrap .lnb {position: absolute; top: 200px; left: 7.8%; background: #fff; width: 15.625%;}
-.subVisualWrap .lnb h2 {background: url('/images/sub_lnb.png') no-repeat center/cover; line-height: 140px; font-size: 35px; font-weight: 400; color: #fff; text-align: center;}
+.subVisualWrap .lnb h2 {background: url('../images/sub_lnb.png') no-repeat center/cover; line-height: 140px; font-size: 35px; font-weight: 400; color: #fff; text-align: center;}
 .subVisualWrap .lnb ul {list-style: none; padding: 0; margin: 0;}
 .subVisualWrap .lnb ul li {box-sizing: border-box; position: relative; padding-left: 12px; border: 1px solid #ccc;}
 .subVisualWrap .lnb ul li a {font-size: 25px; line-height: 76px; color: #000; text-decoration: none; padding-left: 20px; display: block; position: relative;}
@@ -108,7 +108,7 @@ section.board > div > ul > li > time {background-color: #F2F3F5; border-radius: 
 .organization_d_wrap .o_depth04.hasSubmenu::before { content: ""; width: 1px; height: 28px; background-color: transparent; border-left: 1px dashed #b7b7b7; position: absolute; top: 0; border-radius: 50%; left: calc(50% + 0.4px); transform: translateX(-50%); } 
 /* 페이지 타이틀 */
 .pageTitle {display: flex; border-bottom: 1px solid #000; justify-content: space-between; align-items: center; margin-bottom: 30px; padding-bottom: 30px;}
-.pageTitle .btnPrint { background: url('/images/btn_print.png') no-repeat center/cover; width: 27px; height: 26px; border: none;}
+.pageTitle .btnPrint { background: url('../images/btn_print.png') no-repeat center/cover; width: 27px; height: 26px; border: none;}
 .pageTitle h3 {font-size: 35px; font-weight: 500; text-transform: uppercase;}
 /* 게시판 상단 검색/정렬 */
 .boardUtil {margin-bottom: 20px;}
@@ -138,8 +138,8 @@ section.board > div > ul > li > time {background-color: #F2F3F5; border-radius: 
 .boardList .col-date {width: 120px; text-align: center;}
 .boardList .col-like,
 .boardList .col-view {width: 60px; text-align: center;}
-.boardList .icon-lock {display: inline-block; width: 16px; height: 16px; background: url('/images/icon_secret.png') no-repeat center/contain; margin-right: 4px; vertical-align: middle;}
-.boardList .icon-reply {display: inline-block; width: 16px; height: 16px; background: url('/images/icon_reply.png') no-repeat center/contain; margin-right: 4px; vertical-align: middle;}
+.boardList .icon-lock {display: inline-block; width: 16px; height: 16px; background: url('../images/icon_secret.png') no-repeat center/contain; margin-right: 4px; vertical-align: middle;}
+.boardList .icon-reply {display: inline-block; width: 16px; height: 16px; background: url('../images/icon_reply.png') no-repeat center/contain; margin-right: 4px; vertical-align: middle;}
 .boardList .comment-count {color: #e07128;}
 /* 페이징 */
 .pagination {display: flex; justify-content: center; gap: 6px; margin-top: 60px;}
@@ -158,11 +158,11 @@ section.board > div > ul > li > time {background-color: #F2F3F5; border-radius: 
 .viewFile {background: #F3F3F3; padding: 16px 20px; margin: 24px 0; display: flex; justify-content: space-between; align-items: center; font-size: 14px; color: #666;}
 .viewFile .size {margin-left: 8px; color: #999; font-size: 13px;}
 .btnDownload {color: #000; text-decoration: none; background: #fff; border: 1px solid #ccc; padding: 6px 14px; font-size: 14px; border-radius: 4px; cursor: pointer;}
-.icon-download {display: inline-block; width: 16px; height: 16px; background: url('/images/btn_download.png') no-repeat center/contain; margin-left: 8px; vertical-align: middle;}
+.icon-download {display: inline-block; width: 16px; height: 16px; background: url('../images/btn_download.png') no-repeat center/contain; margin-left: 8px; vertical-align: middle;}
 .viewFeedback {text-align: right; margin-bottom: 20px;}
 .viewFeedback button {background: none; border: none; font-size: 14px; color: #000; margin-left: 10px; cursor: pointer;}
-.icon-like {display: inline-block; width: 11px; height: 11px; background: url('/images/btn_like.png') no-repeat center/contain; vertical-align: middle;}
-.icon-dislike {display: inline-block; width: 11px; height: 11px; background: url('/images/btn_dislike.png') no-repeat center/contain; vertical-align: middle;}
+.icon-like {display: inline-block; width: 11px; height: 11px; background: url('../images/btn_like.png') no-repeat center/contain; vertical-align: middle;}
+.icon-dislike {display: inline-block; width: 11px; height: 11px; background: url('../images/btn_dislike.png') no-repeat center/contain; vertical-align: middle;}
 .viewNav {border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 16px 0; font-size: 14px;}
 .viewNav .prev, .viewNav .next {display: flex; align-items: center; margin-bottom: 8px;}
 .viewNav .prev span, .viewNav .next span {width: 70px; font-weight: 500;}
@@ -190,7 +190,7 @@ section.board > div > ul > li > time {background-color: #F2F3F5; border-radius: 
 .galleryList .meta {font-size:13px; color:#666;}
 .videoWrap ul li .thumb {position: relative;}
 .videoWrap ul li .thumb::before {z-index: 1; content: ''; width: 100%; height: 100%; display: block; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0, 0, 0, 0.3);}
-.videoWrap ul li .thumb::after {z-index: 1; content: ''; width: 100%; height: 100%; display: block; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: url('/images/ico_play.png') no-repeat 50% 50%;}
+.videoWrap ul li .thumb::after {z-index: 1; content: ''; width: 100%; height: 100%; display: block; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: url('../images/ico_play.png') no-repeat 50% 50%;}
 .videoWrap ul li:hover .thumb::after{transform: translate(-50%, -50%) rotate(360deg); transition: 0.6s ease-in-out;}
 .viewComment {background:#F3F3F3; padding:16px 20px 26px; margin-bottom: 20px;}
 .viewComment .commentTop {display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #ddd; padding-bottom: 12px;}
@@ -421,7 +421,7 @@ section.board > div > ul > li > time {background-color: #F2F3F5; border-radius: 
     section.notices, section.board{max-width: 1760px; margin: 0 auto 70px;}
     section.visual, section.gallery {max-width: 1920px; margin: 0 auto 190px; position: relative;}
     .visualWrapper {width:100%; text-align: center; box-sizing: border-box;}
-    .subVisualWrap {position: relative; height: 100px; background: url('/images/sub_visual.jpg') no-repeat center/cover; margin-bottom: 70px;}
+    .subVisualWrap {position: relative; height: 100px; background: url('../images/sub_visual.jpg') no-repeat center/cover; margin-bottom: 70px;}
     .visualWrapper .slick-slide img {height: 600px;}
     section.visual, section.gallery {max-width: 1920px; margin: 0 auto 100px; position: relative;}
     section.visual h2 {font-size: 60px; position: absolute;  top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); text-align: center; color: #fff; z-index: 10; line-height: 1.2;}
